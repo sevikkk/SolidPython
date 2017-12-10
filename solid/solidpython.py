@@ -18,7 +18,7 @@ import tempfile
 
 # These are features added to SolidPython but NOT in OpenSCAD.
 # Mark them for special treatment
-non_rendered_classes = ['hole', 'part']
+non_rendered_classes = ['hole', 'part', 'connector', 'container']
 
 # Words reserved in Python but not OpenSCAD
 # Re: https://github.com/SolidCode/SolidPython/issues/99
